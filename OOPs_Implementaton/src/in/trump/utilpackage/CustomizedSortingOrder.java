@@ -20,8 +20,21 @@ public class CustomizedSortingOrder {
 
 		@Override
 		public int compare(Integer i1, Integer i2) {
-			return i2.compareTo(i1); 
+			if(i1 < i2)    //this logic gives descending order 
+				return 1;
+			if(i1 > i2)
+				return -1;
+			return 0;
+		//	return i2.compareTo(i1); // descending order
+		//	return i1.compareTo(i2); //Ascending order
+		//	return -i2.compareTo(i1);  //Ascending order
+		//	return -i1.compareTo(i2); //descending order
+		//	return 1;
+		//return -1;
+		//	return 0;
 		}
+
+	
 		
 	}
 	
