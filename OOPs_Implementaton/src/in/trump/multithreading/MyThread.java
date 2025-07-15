@@ -13,7 +13,7 @@ public class MyThread extends Thread {
 		MyThread mt = new MyThread();
 		Thread t = new Thread(mt);
 		t.start();
-		
+		//t.run();
 		
 	}
 
