@@ -10,14 +10,17 @@ public class MyThread2 implements Runnable {
 		}
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		MyThread2 mt = new MyThread2();
 		Thread t = new Thread(mt);
 		t.start();
+		//t.join();
 		//t.run();
 		for(int i = 1; i<= 10; i++) {
 			System.out.println("Main thread value : "+t.currentThread().getName()+" "+i);
 		}
+		
+		
 	}
 
 }
