@@ -12,5 +12,4 @@ public class MethodRef {
 		//MethodRef mr = MethodRef::m2;
 
 	}
-
 }
