@@ -2,10 +2,12 @@ package in.trump.stream;
 
 public class Person {
 	
+	///private feilds
 	private String name;
 	private Integer age;
 	private String addrs;
 	
+	//parameterized constructor
 	public Person(String name, Integer age, String addrs) {
 		this.name = name;
 		this.age = age;

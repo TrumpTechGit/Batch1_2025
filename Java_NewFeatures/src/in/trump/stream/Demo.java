@@ -14,6 +14,9 @@ public class Demo {
 		Person p5 = new Person("Giri", 22, "Mumbai");
 		
 		List<Person> persons = Arrays.asList(p1,p2,p3,p4,p5);
+		
+		//persons.stream().filter().forEach(//output)
+		
 		persons.stream()
 		.filter(p -> (p.getAge() > 21 && p.getAge() < 24))
 		.forEach(p -> System.out.println(p));
