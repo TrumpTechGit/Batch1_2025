@@ -17,6 +17,7 @@ public class StreamDemo {
 		li.add("tech");
 		li.add("students");
 		li.add("classes");
+	//	li.add(12);
 		
 		Stream<String> stream2 = li.stream();
 		System.out.println(stream2);
